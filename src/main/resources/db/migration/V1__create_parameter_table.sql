@@ -1,0 +1,5 @@
+CREATE TABLE parameter (
+  id SERIAL NOT NULL PRIMARY KEY,
+  key VARCHAR(60) NOT NULL ,
+  value VARCHAR(200) NOT NULL
+);
